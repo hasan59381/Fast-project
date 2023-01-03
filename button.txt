@@ -1,0 +1,96 @@
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <div class="share">
+      <span><i class="fas fa-share-alt"></i> Share</span>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-pinterest"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    /*Defolt-CSS*/
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+        display: inline-block;
+    }
+    ul{
+        list-style-type: none;
+    }
+    html{
+        scroll-behavior: smooth;
+        font-size: 62.5%;
+    }
+    Result Skip Results Iframe
+    body{
+      justify-content: center;
+      align-items: center;
+      background: #ffffff;
+      height: 100vh;
+      display: flex;
+      font-size: 30px
+    }
+    .share {
+        background: #fafafa;
+        height: 47px;
+        width: 165px;
+        border-radius: 40px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        box-shadow: 0 0 20px rgba(0.2,0,0.2, 0.1);
+        border: none;
+    }
+    .share:hover{
+      transform: scale(1.1);
+    }
+    .share span{
+      position: absolute;
+      background: #002651;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      transition : 0.3s linear;
+      z-index: 999;
+      border-radius: 40px;
+    }
+    .share span .fa-share-alt{
+      margin-right: 5px;
+      font-size: 16px;
+    }
+    .share:hover span{
+     transform: translateX(-100%);
+    }
+    .share a {
+        margin: 6px;
+        font-size: 2.2rem;
+    }
+    .share a:hover{
+      transform: translateY(-10%);
+    }
+    .share a .fa-facebook{
+      color:  #3b5998;
+    }
+    .share a .fa-pinterest{
+      color:  #E60023;
+    }
+    .share a .fa-whatsapp{
+      color:  #075e54;
+    }
+    .share a .fa-twitter{
+      color:   #00acee;
+    }
+
+
+

@@ -1,0 +1,113 @@
+/*Defolt-CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+/* start */
+.col-main{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.nav-one{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.nav-one img {
+    height: 2.4rem;
+}
+.navbar-brand img {
+   height: 2.8rem;
+}
+.dropdown-menu[data-bs-popper] {
+    left: -2.5rem !important;
+}
+.navbar-right{
+    display: flex;
+}
+.nav-link {
+    border: 1px solid #ced4da;
+    padding: .38rem 1rem !important;
+    color: #212529 !important;
+}
+.nav-item.dropdown {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.navbar-search{
+    width: 31rem !important;
+}
+.d-flex {
+    width: 100%;
+}
+button.btn {
+    background: #EA2C2C;
+    color: #fff;
+    border-radius: 0rem !important;
+}
+.form-control {
+    border-radius: 0rem !important;    
+}
+.nav-order ul {
+    display: flex;
+    padding: .2rem .4rem;
+    color: #212529;
+    margin: 0.5rem 4rem;
+    border-radius: .2rem;
+    border: 1px solid #ced4da;
+}
+.nav-profile a i {
+    padding: .3rem .5rem;
+    background-color: rgb(255, 255, 255);
+    color: #212529;
+    border-radius: .29rem;
+    font-size: 1.5rem;
+    border: 1px solid #ced4da;
+}
+.nav-profile a i:hover{
+    color: #EA2C2C !important;
+}
+
+.nav-order-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li.nav-order-one samp {
+    position: absolute;
+    top: -0.3rem;
+    font-family:auto !important;
+    border-radius: .3rem;
+}
+li.nav-order-one {
+    margin-right: 1rem;
+    position: relative;
+}
+li.nav-order-one {
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    position: relative;
+}
+li.nav-order-three {
+    font-size: 1.4rem;
+}
